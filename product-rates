@@ -12,3 +12,10 @@ spring:
   h2:
     console:
       enabled: 'true'
+
+spring:
+  application:
+    name: "product-rates"
+  config:
+    activate:
+      on-profile: default
