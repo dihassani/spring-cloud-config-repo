@@ -1,14 +1,14 @@
-spring.datasource.url=jdbc:h2:./data/product-db
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=sa
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-
-spring.jpa.generate-ddl=true
-spring.jpa.hibernate.ddl-auto=none
-
-#enabling the H2 console
-spring.h2.console.enabled=true
-
-
-
+spring:
+  datasource:
+    username: sa
+    url: jdbc:h2:./data/product-db
+    driverClassName: org.h2.Driver
+    password: sa
+  jpa:
+    generate-ddl: 'true'
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+  h2:
+    console:
+      enabled: 'true'
