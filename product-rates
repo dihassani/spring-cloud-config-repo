@@ -12,4 +12,4 @@ spring.h2.console.enabled=true
 
 server.port=9090
 
-inventory.pricing.http.url=http://inventorypricing/v1/pricing/
+INVENTORY_URL=http://inventorypricing/v1/pricing/
