@@ -19,3 +19,7 @@ spring:
   config:
     activate:
       on-profile: default
+inventory:
+  pricing:
+    http:
+      url: http://inventorypricing/v1/pricing/
